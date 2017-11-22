@@ -11,3 +11,4 @@ yarn watch # watch and regenerate files
 yarn start # start local host server
 ```
 # zenwalletcopy
+# zenwalletcopy
