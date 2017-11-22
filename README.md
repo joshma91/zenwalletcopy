@@ -10,3 +10,4 @@ Download one of the releases, goto the `dist` folder and double click `index.htm
 yarn watch # watch and regenerate files
 yarn start # start local host server
 ```
+# zenwalletcopy
