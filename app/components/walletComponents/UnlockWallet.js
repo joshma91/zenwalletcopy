@@ -1,9 +1,20 @@
-import React from 'react';
-import { Alert, Form, FormText, ButtonGroup, UncontrolledAlert, Tooltip, CardBlock, CardFooter, Modal, ModalHeader, ModalBody, ModalFooter, ListGroup, ListGroupItem, Badge, Progress, FormGroup, Label, Container, Jumbotron, TabContent, InputGroup, Input, InputGroupAddon, InputGroupButton, Table, TabPane, Nav, NavItem, NavLink, Card, CardSubtitle, Button, CardTitle, CardText, Row, Col } from 'reactstrap';
+import React from "react";
+import {
+  Alert,
+  Form,
+  FormText,
+  FormGroup,
+  Label,
+  InputGroup,
+  Input,
+  InputGroupButton,
+  Button,
+  Col,
+} from "reactstrap";
 
-import FAEyeSlash from 'react-icons/lib/fa/eye-slash'
-import FAEye from 'react-icons/lib/fa/eye'
-import hdwallet from '../../lib/hdwallet'
+import FAEyeSlash from "react-icons/lib/fa/eye-slash";
+import FAEye from "react-icons/lib/fa/eye";
+import hdwallet from "../../lib/hdwallet";
 
 // Unlock wallet enum
 const UNLOCK_WALLET_TYPE = {
@@ -193,7 +204,7 @@ export default class UnlockWallet extends React.Component {
               type={this.state.showPassword ? `text` : `password`}
               maxLength="64"
               onChange={e => this.setState({ secretPhrase: e.target.value })}
-              placeholder="Secret phrase. e.g. cash cow money heros cardboard money bag late green"
+              placeholder="Secret phrase. e.g. cash cash cow moo money heros cardboard money bag late green"
             />
           </InputGroup>
           <div style={{ paddingTop: `8px` }}>
